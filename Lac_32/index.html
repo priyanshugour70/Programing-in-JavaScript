@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lac_32</title>
+  </head>
+  <body>
+    <div>
+      <h1>Hello World</h1>
+    </div>
+
+    <script>
+      console.log(document.body.firstChild);
+      console.log(document.body.lastChild);
+      console.log(document.body.childNodes);
+
+      // convert nodelist to array...
+      let arr = Array.from(document.body.childNodes);
+      console.log(arr);
+    </script>
+  </body>
+</html>

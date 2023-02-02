@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+        ul{
+            /* background-color: red; */
+        }
+        li {
+            /* display: inline; */
+            list-style: square outside url('red.png'); 
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            height: 70px;
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid red;
+        }
+
+        .container {
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            padding: 0 34px;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: chartreuse;
+            /* position: relative; */
+            position: absolute;
+        }
+
+        .box2 {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(30, 17, 145);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aut neque blanditiis hic eaque repellendus
+            maiores similique architecto tempore exercitationem adipisci perferendis aspernatur earum, tenetur rerum
+            natus fugit at doloremque corporis. Earum, ratione dolore?</p>
+        <div class="box">
+            I am a box
+        </div>
+        <div class="box2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam obcaecati sed maiores eius, dolorem tenetur
+            illum quos in est porro, laboriosam rerum labore reiciendis facere! Iure dolor illum ut molestias dolore
+            suscipit, enim libero?
+        </div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Oranges</li>
+    </ul>
+</body>
+
+</html>

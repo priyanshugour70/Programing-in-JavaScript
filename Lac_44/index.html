@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lac_44</title>
+    </head>
+    <body>
+        
+        <div id="first">
+            Hey I am first..
+        </div>
+
+        <script>
+            
+            let first = document.getElementById('first')
+
+            first.insertAdjacentHTML('beforebegin','<div class="test">beforebegin</div>');
+            first.insertAdjacentHTML('beforeend','<div class="test">beforeend</div>');
+            first.insertAdjacentHTML('afterbegin','<div class="test">afterbegin</div>');
+            first.insertAdjacentHTML('afterend','<div class="test">afterend</div>');
+            
+            // first.remove()
+        </script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    background: rgba(231, 21, 238, 0.486); 
+    height: 344px;
+    color:white;
+}
+
+.green{
+    background-color: green;
+    color:aqua;
+}

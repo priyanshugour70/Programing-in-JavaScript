@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .progress {
+            background-color: red;
+            height: 3px;
+            animation: load 1s ease-in-out 1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 122px;
+            background-color: black;
+        }
+
+        main {
+            height: 899px;
+            background-color: blue;
+        }
+
+        @keyframes load {
+            0% {
+                width: 0;
+            }
+
+            50% {
+                width: 90vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes slide1 {
+            0% {
+                transform: translate(-8vw);
+            }
+
+            100% {
+                transform: translate(85vw);
+        }
+        }
+
+        @keyframes slide2 {
+            0% {
+                transform: translate(0vw);
+            }
+
+            100% {
+                transform: translate(92vw);
+        }
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        .slider { 
+            background-color: white;
+            height: 523px; 
+            overflow: hidden;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        .img1{
+            transform: translate(-8vw);  
+            animation: slide1 1s 2s forwards;
+
+        }
+        .img2{
+            transform: translate(0vw);   
+            animation: slide2 1s 2s forwards;
+        }
+        .img3{
+            transform: translate(8vw);
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header></header>
+    <main>
+        <!-- <img src="dragon.png" alt="" width="122px"> -->
+        <div class="slider">
+            <img class="img1" src="https://source.unsplash.com/collection/190727/1600x900"> 
+            <img class="img2" src="https://source.unsplash.com/collection/190727/1600x901"> 
+            <img class="img3" src="https://source.unsplash.com/collection/190727/1600x902"> 
+        </div>
+    </main>
+</body>
+<script>
+
+</script>
+</html>
