@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.cent{
+    margin: 30%;
+    height: 40vh;
+    width: 40vw;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+body{
+    background-color: red;
+}
