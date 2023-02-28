@@ -1,57 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Lac_34</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        html, body{
-            height: 100%;
-            width: 100%;
+    <head>
+        <title>Lac_34</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- This is comment .. -->
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Hire me</li>
+            </ul>
+        </nav>
+        <div>
+            <p>Hey I am a good Boy....</p>
+        </div>
 
-        }
-        ul{
-            display: flex;
-            background : gray;
-        }
-        ul li {
-            list-style: none;
-            margin: 0 23px;
-            padding: 0 5px;
-            color: white;
-        }
-    </style>
-  </head>
-  <body>
-    <!-- This is comment .. -->
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Hire me</li>
-      </ul>
-    </nav>
-    <div>
-      <p>Hey I am a good Boy....</p>
-    </div>
-
-    <script>
-
-        const changebgcolor = () =>{
-            document.body.firstElementChild.style.background = "red" ;
-        }
-
-
-      let b = document.body;
-      console.log("First child of b is  : ", b.firstChild);
-      console.log("First Element child of b is  : ", b.firstElementChild);
-
-      //     console.log("PreviousElementSibling : ",document.previousElementSibling)
-      //     console.log("nextElementSibling : ",document.nextElementSibling)
-      //     console.log("firstElementChild : ",document.firstElementChild)
-      //     console.log("lastElementChild : ",document.lastElementChild)
-    </script>
-  </body>
+        <script src="index.js"></script>
+    </body>
 </html>
