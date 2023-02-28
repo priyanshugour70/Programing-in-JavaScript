@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    list-style: none;
+    display: flex;
+    background: blanchedalmond;
+    width: 100%;
+}
+li {
+    padding: 5px 0 5px 0;
+    margin: 0 3vw 0 3vw;
+}
