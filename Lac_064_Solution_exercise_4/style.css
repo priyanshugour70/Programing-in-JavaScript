@@ -1,0 +1,9 @@
+.main {
+    text-align: center;
+    padding-top: 40vh;
+}
+#tym {
+    border: none;
+    border-radius: 40px 10px;
+    background: gold;
+}
