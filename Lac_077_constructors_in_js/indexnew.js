@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Lac_77</title>
-    </head>
-    <body>
-        <script>
             // Class is a like template..
             class RailwayForm {
                 constructor(givenname, trainno, address) {
@@ -53,6 +46,3 @@
             harryForm.submit();
             harryForm.cancel();
             harryForm.preview();
-        </script>
-    </body>
-</html>
